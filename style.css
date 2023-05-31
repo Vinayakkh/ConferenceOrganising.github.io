@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+ background: rgba(0, 0, 0, 0.7) url("..//Event Organising Event/Image/bgre.jpg") no-repeat center center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.Head {
+    color: black;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+}
+
+.Head h1 {
+    font-family: 'Indie Flower', cursive;
+    width: 100%;
+    color:greenyellow;
+    display: inline-block;
+    font-size: 45px;
+    border-bottom: 5px solid purple;
+    margin-bottom: 15px;
+    padding: 13px 0;
+}
+
+.box {
+    width: 100%;
+    margin: 25px 0px;
+    color: blueviolet;
+    
+}
+.box:hover {
+    transition-delay: 1s;
+    transition: 0.7s;
+    border-bottom: 2.5px solid purple;
+}
+.box input {
+    background: none;
+    width: 83%;
+    padding: 5px 10px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.box i {
+color:#cdb7cd;
+    width: 25px;
+    text-align: center;
+}
+
+.btn {
+    color:red;
+    cursor: pointer;
+    outline: none;
+    width: 45%;
+    margin: 12px 0;
+    padding: 10px 21px;
+    border: 2px solid purple;
+    border-radius: 10px;
+    font-size: 18px;
+    background: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: yellow;
+    transition:1s;
+    opacity: 0.5;
+    
+}
